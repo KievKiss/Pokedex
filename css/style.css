@@ -9,8 +9,9 @@
 
 body {
     text-align: center;
-    background: linear-gradient(to bottom, #6ab7f5, #fff);
     min-height: 100vh;
+    background-image: url(../images/pokemon-background.jpg);
+    background-size: cover;
 }
 
 main {
@@ -23,6 +24,9 @@ main {
 .pokedex {
     width: 100%;
     max-width: 425px;
+    background-color: #D30A40;
+    border-radius: 10px;
+    box-shadow: -3px 4px 0 #94032A, -5px 7px 0 #333;
 }
 
 .pokemon_image {
