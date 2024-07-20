@@ -60,9 +60,19 @@ main {
     display: flex;
 }
 
-.send_button{
-    background-color: transparent;
+.send_button {
+    background: none;
     border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.send_button img {
+    transition: transform 0.1s;
+}
+
+.send_button:active img {
+    transform: scale(0.9);
 }
 
 .input_search {
