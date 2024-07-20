@@ -56,7 +56,13 @@ main {
     position: absolute;
     width: 65%;
     top: 65%;
-    left: 13.5%
+    left: 13.5%;
+    display: flex;
+}
+
+.send_button{
+    background-color: transparent;
+    border: none;
 }
 
 .input_search {
