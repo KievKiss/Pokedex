@@ -52,6 +52,15 @@ main {
     text-transform: capitalize;
 }
 
+.pokemon_name.long {
+    font-size: 20px; 
+}
+
+.pokemon_name.long2{
+    font-size: 16px; 
+}
+
+
 .form {
     position: absolute;
     width: 65%;
